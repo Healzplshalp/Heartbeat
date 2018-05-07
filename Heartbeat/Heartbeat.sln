@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Heartbeat", "Heartbeat\Heartbeat.csproj", "{AE6FFCBB-9F05-4DB0-9E83-D3D18BC2DF2F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppLogging", "ApplicationLogging\ApplicationLogging\AppLogging.csproj", "{2840D2E0-B480-421B-8951-45078EEAACCF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AE6FFCBB-9F05-4DB0-9E83-D3D18BC2DF2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE6FFCBB-9F05-4DB0-9E83-D3D18BC2DF2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE6FFCBB-9F05-4DB0-9E83-D3D18BC2DF2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE6FFCBB-9F05-4DB0-9E83-D3D18BC2DF2F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2840D2E0-B480-421B-8951-45078EEAACCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2840D2E0-B480-421B-8951-45078EEAACCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2840D2E0-B480-421B-8951-45078EEAACCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2840D2E0-B480-421B-8951-45078EEAACCF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {663760CC-8CD7-456F-A54A-90182678C01B}
+	EndGlobalSection
+EndGlobal

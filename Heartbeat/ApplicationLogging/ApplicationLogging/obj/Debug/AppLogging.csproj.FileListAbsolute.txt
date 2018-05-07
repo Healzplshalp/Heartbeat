@@ -1,0 +1,11 @@
+C:\Users\Administrator\Documents\Visual Studio 2013\New folder\SRC\BSI\DLLs\ApplicationLogging\ApplicationLogging\bin\Debug\ApplicationLogging.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\New folder\SRC\BSI\DLLs\ApplicationLogging\ApplicationLogging\bin\Debug\ApplicationLogging.pdb
+C:\Users\Administrator\Documents\Visual Studio 2013\New folder\SRC\BSI\DLLs\ApplicationLogging\ApplicationLogging\obj\Debug\AppLogging.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\Visual Studio 2013\New folder\SRC\BSI\DLLs\ApplicationLogging\ApplicationLogging\obj\Debug\ApplicationLogging.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\New folder\SRC\BSI\DLLs\ApplicationLogging\ApplicationLogging\obj\Debug\ApplicationLogging.pdb
+C:\Users\vishayanurojp\source\repos\Heartbeat\ApplicationLogging\ApplicationLogging\bin\Debug\ApplicationLogging.dll
+C:\Users\vishayanurojp\source\repos\Heartbeat\ApplicationLogging\ApplicationLogging\bin\Debug\ApplicationLogging.pdb
+C:\Users\vishayanurojp\source\repos\Heartbeat\ApplicationLogging\ApplicationLogging\obj\Debug\AppLogging.csprojResolveAssemblyReference.cache
+C:\Users\vishayanurojp\source\repos\Heartbeat\ApplicationLogging\ApplicationLogging\obj\Debug\AppLogging.csproj.CoreCompileInputs.cache
+C:\Users\vishayanurojp\source\repos\Heartbeat\ApplicationLogging\ApplicationLogging\obj\Debug\ApplicationLogging.dll
+C:\Users\vishayanurojp\source\repos\Heartbeat\ApplicationLogging\ApplicationLogging\obj\Debug\ApplicationLogging.pdb

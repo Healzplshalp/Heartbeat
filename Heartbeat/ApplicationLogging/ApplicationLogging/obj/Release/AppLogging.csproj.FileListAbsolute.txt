@@ -1,0 +1,5 @@
+C:\Users\vishayanurojp\Documents\DEVRTCDEPLOY\BSI\DLLs\ApplicationLogging\ApplicationLogging\bin\Release\ApplicationLogging.dll
+C:\Users\vishayanurojp\Documents\DEVRTCDEPLOY\BSI\DLLs\ApplicationLogging\ApplicationLogging\bin\Release\ApplicationLogging.pdb
+C:\Users\vishayanurojp\Documents\DEVRTCDEPLOY\BSI\DLLs\ApplicationLogging\ApplicationLogging\obj\Release\AppLogging.csproj.CoreCompileInputs.cache
+C:\Users\vishayanurojp\Documents\DEVRTCDEPLOY\BSI\DLLs\ApplicationLogging\ApplicationLogging\obj\Release\ApplicationLogging.dll
+C:\Users\vishayanurojp\Documents\DEVRTCDEPLOY\BSI\DLLs\ApplicationLogging\ApplicationLogging\obj\Release\ApplicationLogging.pdb

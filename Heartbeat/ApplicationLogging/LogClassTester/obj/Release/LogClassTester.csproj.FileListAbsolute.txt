@@ -1,0 +1,9 @@
+C:\Users\vishayanurojp\Documents\DEVRTCDEPLOY\BSI\DLLs\ApplicationLogging\LogClassTester\bin\Release\LogClassTester.exe.config
+C:\Users\vishayanurojp\Documents\DEVRTCDEPLOY\BSI\DLLs\ApplicationLogging\LogClassTester\bin\Release\LogClassTester.exe
+C:\Users\vishayanurojp\Documents\DEVRTCDEPLOY\BSI\DLLs\ApplicationLogging\LogClassTester\bin\Release\LogClassTester.pdb
+C:\Users\vishayanurojp\Documents\DEVRTCDEPLOY\BSI\DLLs\ApplicationLogging\LogClassTester\bin\Release\ApplicationLogging.dll
+C:\Users\vishayanurojp\Documents\DEVRTCDEPLOY\BSI\DLLs\ApplicationLogging\LogClassTester\bin\Release\ApplicationLogging.pdb
+C:\Users\vishayanurojp\Documents\DEVRTCDEPLOY\BSI\DLLs\ApplicationLogging\LogClassTester\obj\Release\LogClassTester.csprojResolveAssemblyReference.cache
+C:\Users\vishayanurojp\Documents\DEVRTCDEPLOY\BSI\DLLs\ApplicationLogging\LogClassTester\obj\Release\LogClassTester.csproj.CoreCompileInputs.cache
+C:\Users\vishayanurojp\Documents\DEVRTCDEPLOY\BSI\DLLs\ApplicationLogging\LogClassTester\obj\Release\LogClassTester.exe
+C:\Users\vishayanurojp\Documents\DEVRTCDEPLOY\BSI\DLLs\ApplicationLogging\LogClassTester\obj\Release\LogClassTester.pdb

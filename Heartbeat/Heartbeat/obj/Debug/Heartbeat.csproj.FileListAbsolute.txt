@@ -1,0 +1,9 @@
+C:\Users\vishayanurojp\source\repos\Heartbeat\Heartbeat\obj\Debug\Heartbeat.csprojResolveAssemblyReference.cache
+C:\Users\vishayanurojp\source\repos\Heartbeat\Heartbeat\obj\Debug\Heartbeat.csproj.CoreCompileInputs.cache
+C:\Users\vishayanurojp\source\repos\Heartbeat\Heartbeat\bin\Debug\Heartbeat.exe.config
+C:\Users\vishayanurojp\source\repos\Heartbeat\Heartbeat\bin\Debug\Heartbeat.exe
+C:\Users\vishayanurojp\source\repos\Heartbeat\Heartbeat\bin\Debug\Heartbeat.pdb
+C:\Users\vishayanurojp\source\repos\Heartbeat\Heartbeat\bin\Debug\ApplicationLogging.dll
+C:\Users\vishayanurojp\source\repos\Heartbeat\Heartbeat\bin\Debug\ApplicationLogging.pdb
+C:\Users\vishayanurojp\source\repos\Heartbeat\Heartbeat\obj\Debug\Heartbeat.exe
+C:\Users\vishayanurojp\source\repos\Heartbeat\Heartbeat\obj\Debug\Heartbeat.pdb
