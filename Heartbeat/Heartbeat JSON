@@ -1,0 +1,81 @@
+// Gmail label for incoming heartbeats
+var GMAIL_LABEL = "Heartbeats";  
+
+//Run intialize to authorize script
+function Intialize()
+{
+  return;
+}
+
+function checkForHeartbeat() 
+{
+  var heartBeatEmail = "label:" + GMAIL_LABEL;
+  var emailMessages = [];
+  var emailMessagesLength;
+  var threads = GmailApp.search(heartBeatEmail, 0, 10);
+  
+  threads.forEach(function(messages){
+    messages.getMessages().forEach(function(msg){
+      emailMessages.push(msg);
+    });
+  });
+  
+  emailMessagesLength = emailMessages.length;
+  
+  if (emailMessagesLength < 2)
+  {
+    if (!isNotificationAlreadySent())
+    {
+    //Send email notification of power outtage
+    sendEmailNotification("Power outage notification", "Server not responding, power outage alert.  " +  
+                          "Last heartbeat received: " + emailMessages[0].getDate());
+    }
+  }
+  else
+  {
+    //Normal operation
+    if (compareDates(emailMessages) > 320000)
+    {
+     sendEmailNotification("Power restored to server", "Power has been restored to the server");
+    }
+    deleteOldHeartbeats(emailMessages, emailMessagesLength);
+  }
+}
+
+function isNotificationAlreadySent()
+{
+  var threads = GmailApp.search('subject:"Power outage notification"');
+  if (threads.length > 0)
+  {
+    return true;
+  }
+  else
+  {
+    return false;
+  }
+}
+
+function deleteOldHeartbeats(emailMessages, emailMessagesLength)
+{
+  for (i = 1; i<emailMessagesLength; i++)
+    {
+      emailMessages[i].moveToTrash();
+    }
+}
+
+function sendEmailNotification(subject, body)
+{
+  MailApp.sendEmail("XXXX, " + 
+                    "XXXX," + 
+                    "XXXX," + 
+                    "XXXX", subject, body);
+}
+
+function compareDates(emailMessages)
+{
+  var t1 = emailMessages[0].getDate(),
+      t2 = emailMessages[1].getDate();
+  
+  var diffInMilliseconds = Math.floor(t1-t2);
+  return diffInMilliseconds;
+}
