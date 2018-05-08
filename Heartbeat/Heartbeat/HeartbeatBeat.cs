@@ -12,11 +12,15 @@ namespace Heartbeat
             try
             {
                 InitializeProgram();
+                Log.Info("Intializations complete...");
+                Log.Info("Sending heartbeat");
                 GmailEmail.SendEmail();
+                Log.Info("Heartbeat sent: " + DateTime.Now.ToString());
             }
             catch (Exception ex)
             {
                 Log.Error(ex.ToString());
+                Log.Error("Return code: " + Environment.ExitCode);
                 Program.PreserveStackTrace(ex);
                 throw;
             }
@@ -33,7 +37,7 @@ namespace Heartbeat
         private void InitializeProgram()
         {
             InitializeLog();
-            Log.Runtime("Start Log");
+            Log.Runtime("Start Log: Session: " + DateTime.Now.ToString());
         }
 
         public void InitializeLog()
@@ -51,6 +55,7 @@ namespace Heartbeat
             }
             catch (Exception ex)
             {
+                Environment.ExitCode = 65;
                 Program.PreserveStackTrace(ex);
                 throw;
             }

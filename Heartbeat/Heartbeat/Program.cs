@@ -5,13 +5,50 @@ namespace Heartbeat
 {
     class Program
     {
-        static void Main(string[] args)
+        /// <summary>
+        /// Exit code for batch job
+        /// 1: Successful
+        /// 2: Failure during runtime (generic)
+        /// </summary>
+        enum ExitCode : int
         {
-            Console.Title = "Heartbeat Pulse";
-            HeartbeatBeat HB = new HeartbeatBeat();
-            Console.WriteLine("Send heartbeat...");
-            HB.Run();
-            Console.WriteLine("Hearbeat sent...");
+            Success = 0,
+            AppSettingsRetrievalError = 99,
+            EmailNotificationError = 98,
+            Failure = 1
+        }
+
+        static int Main(string[] args)
+        {
+            try
+            {
+                Console.Title = "Heartbeat Pulse";
+                HeartbeatBeat HB = new HeartbeatBeat();
+                Console.WriteLine("Send heartbeat...");
+                HB.Run();
+                Console.WriteLine("Hearbeat sent...");
+                Console.WriteLine("Exit Code: " + (int)ExitCode.Success);
+                return (int)ExitCode.Success;
+            }
+
+            catch (Exception e)
+            {
+                Console.WriteLine("Problem encountered during runtime call to Informatica.");
+                Console.WriteLine(e.ToString());
+
+                switch (Environment.ExitCode)
+                {
+                    case 55:
+                        Console.WriteLine("Exit Code: " + (int)ExitCode.EmailNotificationError);
+                        return (int)ExitCode.EmailNotificationError;
+                    case 65:
+                        Console.WriteLine("Exit Code: " + (int)ExitCode.AppSettingsRetrievalError);
+                        return (int)ExitCode.AppSettingsRetrievalError;
+                    default:
+                        Console.WriteLine("Exit Code: " + (int)ExitCode.Failure);
+                        return (int)ExitCode.Failure;
+                }
+            }
         }
 
         /// <summary>

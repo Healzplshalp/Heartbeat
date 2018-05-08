@@ -13,7 +13,7 @@ namespace Heartbeat
                 var fromAddress = new MailAddress("612WGeneseeHeartbeat@gmail.com", "612WGenesee");
                 var toAddress = new MailAddress("pvishayan@gmail.com", "Patrick");
                 const string fromPassword = "fes15043";
-                const string subject = "Heartbeat";
+                string subject = "Heartbeat " + DateTime.Now.ToString();
                 string body = DateTime.Now.ToString();
 
                 var smtp = new SmtpClient

@@ -89,7 +89,7 @@ namespace AppLogging
             String timeStamp;
             String LogFullPath;
 
-            timeStamp = DateTime.Now.ToString("yyyyMMdd_HHmmss");
+            timeStamp = DateTime.Now.ToString("yyyy_MM_dd");
             LogFullPath = string.Format(@"{0}\{1}_{2}{3}", LogPath,
                                                             LogName,
                                                             timeStamp,
@@ -202,7 +202,7 @@ namespace AppLogging
                     LogWriter.WriteLine("RUN  " +
                                       DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss") +
                                       " - " +
-                                      "Log is Closed");
+                                      "Log is Closed =========================== Log is Closed");
                     LogWriter.Flush();
                 }
 
